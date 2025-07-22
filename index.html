@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rihan Stocks</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-blue-600">📈 Rihan Stocks</h1>
+      <nav class="space-x-6 text-sm">
+        <a href="#home" class="hover:text-blue-500">Home</a>
+        <a href="#market" class="hover:text-blue-500">Market</a>
+        <a href="#learn" class="hover:text-blue-500">Learn</a>
+        <a href="#contact" class="hover:text-blue-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="bg-blue-100 py-16 text-center">
+    <h2 class="text-4xl font-bold mb-4">Invest Smart. Learn Fast.</h2>
+    <p class="text-lg mb-6">Track the stock market, gain insights, and become a smart investor.</p>
+    <a href="#market" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Explore Market</a>
+  </section>
+
+  <!-- Market Summary -->
+  <section id="market" class="max-w-6xl mx-auto py-16 px-4">
+    <h3 class="text-3xl font-bold text-center mb-10">📊 Live Market Summary</h3>
+    <div class="grid md:grid-cols-3 gap-6 text-center">
+      <div class="bg-white p-6 shadow rounded">
+        <h4 class="text-xl font-semibold mb-2">Sensex</h4>
+        <p class="text-green-600 text-2xl font-bold">₹ 73,000</p>
+        <p class="text-sm text-gray-500">+150 (0.25%)</p>
+      </div>
+      <div class="bg-white p-6 shadow rounded">
+        <h4 class="text-xl font-semibold mb-2">Nifty 50</h4>
+        <p class="text-green-600 text-2xl font-bold">₹ 22,200</p>
+        <p class="text-sm text-gray-500">+60 (0.28%)</p>
+      </div>
+      <div class="bg-white p-6 shadow rounded">
+        <h4 class="text-xl font-semibold mb-2">Bank Nifty</h4>
+        <p class="text-red-600 text-2xl font-bold">₹ 48,500</p>
+        <p class="text-sm text-gray-500">-120 (−0.20%)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chart Section -->
+  <section class="py-16 bg-gray-100 px-4">
+    <h3 class="text-3xl font-bold text-center mb-8">📈 Live Stock Chart</h3>
+    <div class="max-w-4xl mx-auto">
+      <!-- TradingView Widget -->
+      <iframe src="https://s.tradingview.com/embed-widget/single-quote/?symbol=NSE%3ARELIANCE&locale=en" width="100%" height="260" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+    </div>
+  </section>
+
+  <!-- Learn Section -->
+  <section id="learn" class="py-16 max-w-6xl mx-auto px-4">
+    <h3 class="text-3xl font-bold text-center mb-10">📚 Learn Stock Market</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white shadow p-6 rounded-lg">
+        <h4 class="font-bold text-lg mb-2">What is Stock Market?</h4>
+        <p class="text-sm text-gray-600">Learn the basics of investing, stocks, IPOs, and more.</p>
+      </div>
+      <div class="bg-white shadow p-6 rounded-lg">
+        <h4 class="font-bold text-lg mb-2">How to Pick Stocks?</h4>
+        <p class="text-sm text-gray-600">Simple strategies to choose stocks for long-term gains.</p>
+      </div>
+      <div class="bg-white shadow p-6 rounded-lg">
+        <h4 class="font-bold text-lg mb-2">Technical vs Fundamental</h4>
+        <p class="text-sm text-gray-600">Understand chart patterns and balance sheets.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-gray-200 py-6 text-center text-sm text-gray-700">
+    📍 Based in India | 💬 WhatsApp: +91-9927266870 <br/>
+    © 2025 Rihan Stocks |
+  </footer>
+
+</body>
+</html>
